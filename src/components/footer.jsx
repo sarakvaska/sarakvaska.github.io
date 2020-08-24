@@ -53,7 +53,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
                     <div>
-                        <div className="col-md-12 text-center">
+                        <div style={{height:'85vh', paddingTop:'700px'}} className="col-md-12 text-center">
                             <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                             Copyright © All rights reserved | Thanks to <a href="https://colorlib.com" target="_blank">Colorlib</a> for the template inspiration <i class="icon-heart color-danger" aria-hidden="true"></i>
                             {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
