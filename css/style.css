@@ -8465,7 +8465,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 120px;
+  bottom: 110px;
   z-index: 2; }
 
 .mouse-icon {
@@ -9101,7 +9101,11 @@ textarea.form-control {
    @media (max-width: 770px) {
     .ftco-section {
       padding-bottom: 3200px;
-   } }
+   }
+   @media (max-width: 300px) {
+    .ftco-section {
+      padding-bottom: 6600px;}
+   }
 
 .ftco-section-1 {
   padding-top: 0px;
@@ -9117,7 +9121,10 @@ textarea.form-control {
   padding-bottom: 0 !important;}
   @media (max-width: 1000px) {
     .ftco-no-pb {
-      padding-bottom: 800px !important; } }
+      padding-bottom: 800px !important; }
+  @media (max-width: 300px) {
+    .ftco-no-pb {
+      padding-bottom: 1000px !important; }  }
 
 .ftco-bg-dark {
   background: #3c312e; }
