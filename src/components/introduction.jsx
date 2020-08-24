@@ -5,6 +5,7 @@ export default class Introduction extends Component {
     return (
         <div>
             <section className="ftco-about img ftco-section ftco-no-pt ftco-no-pb goto-here" id="about-section">
+                <title>Sara K.</title>
                 <div className="container">
     		        <div className="row d-flex no-gutters">
     			        <div className="col-md-6 col-lg-6 d-flex">
