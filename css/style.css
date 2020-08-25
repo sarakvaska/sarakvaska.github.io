@@ -8158,12 +8158,16 @@ a {
     color: #3e64ff;
     outline: none !important; }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
+h3, h4, h5,
+.h3, .h4, .h5 {
   line-height: 1.5;
   color: black;
   font-weight: 400; }
 
+h1, .h1, h2, .h2 {
+  color: black;
+  font-weight: 400;
+}
 .text-primary {
   color: #3e64ff !important; }
 
@@ -9109,6 +9113,9 @@ textarea.form-control {
   @media (max-width: 1000px) {
     .ftco-section-1 {
       padding-top: 0px; } }
+  @media (max-width: 400px) {
+    .ftco-section-1 {
+      padding-top: 1600px; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -9344,7 +9351,23 @@ textarea.form-control {
   display: block;
   width: 100%;
   height: 300px; }
-
+#wrapper {
+    display: flex;
+}
+#left {
+  height: 25px;
+}   
+#right {
+  flex: 1;
+  padding-left: 15px;
+}
+#third {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#fourth {
+  padding-right: 15px;
+}
 .blog-entry {
   position: relative; }
   @media (min-width: 768px) {
@@ -9424,7 +9447,8 @@ textarea.form-control {
   color: #1a1a1a; }
 
 .contact-section .box {
-  /* width: 100%; */
+  width: 275px;
+  height: 250px;
   display: block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
