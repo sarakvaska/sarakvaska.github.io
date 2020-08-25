@@ -10,7 +10,7 @@ export default class Introduction extends Component {
     			        <div className="col-md-6 col-lg-6 d-flex">
     				        <div className="img-about img d-flex align-items-stretch">
     					        <div className="overlay"></div>
-	    				        <div className="img d-flex align-self-stretch align-items-center" style={{backgroundImage:'url(images/about.jpg)'}}>
+	    				        <div className="img d-flex align-self-stretch align-items-center" style={{backgroundImage:'url(' + require('./about.jpg') + ')'}}>
 	    				    </div>
     				    </div>
     			    </div>

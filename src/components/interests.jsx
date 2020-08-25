@@ -66,7 +66,7 @@ export default class Interests extends Component {
                 </div>
             <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-15px', marginLeft: '15px', justifyContent: 'center'}} >
                 <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
-                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/friends.jpeg)'}}>
+                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./friends.jpeg') + ')'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
                                 <h3><a onClick={() => this.setState({ isOpen1: true })}>My best friends</a></h3>
@@ -80,7 +80,7 @@ export default class Interests extends Component {
                         </div>
                     </div>
                 <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
-                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/fish.jpeg)'}}>
+                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./fish.jpeg') + ')'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
                                 <h3><a onClick={() => this.setState({ isOpen2: true })}>My two angelfish</a></h3>
@@ -94,7 +94,7 @@ export default class Interests extends Component {
                         </div>
                     </div>
                 <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
-                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/pins.jpeg)'}}>
+                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./pins.jpeg') + ')'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
                                 <h3><a onClick={() => this.setState({ isOpen3: true })}>My pin collection</a></h3>
@@ -111,7 +111,7 @@ export default class Interests extends Component {
             </div>
             <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-15px', marginLeft: '15px', justifyContent: 'center', paddingBottom:'100px'}} >
                 <div style={{backgroundPosition: 'center center'}} style={{height:'50%', width:'100%'}} className="col-md-4">
-                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/journal.jpeg)', backgroundPosition: 'center center'}}>
+                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./journal.jpeg') + ')', backgroundPosition: 'center center'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
                                 <h3><a onClick={() => this.setState({ isOpen4: true })}>My Journal</a></h3>
@@ -125,7 +125,7 @@ export default class Interests extends Component {
                         </div>
                     </div>
                 <div style={{height:'50%', width:'100%'}} className="col-md-4">
-                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/running.jpeg)', backgroundPosition: 'center center'}}>
+                    <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./running.jpeg') + ')', backgroundPosition: 'center center'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
                                 <h3><a onClick={() => this.setState({ isOpen5: true })}>My aunt and I after a half marathon</a></h3>
@@ -139,7 +139,7 @@ export default class Interests extends Component {
                         </div>
                     </div>
                 <div style={{height:'50%', width:'100%'}} className="col-md-4">
-                    <div className="project ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/kayaking.jpeg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center left'}}>
+                    <div className="project ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./kayaking.jpeg') + ')', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center left'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
                                 <h3><a onClick={() => this.setState({ isOpen6: true })}>Kayaking</a></h3>

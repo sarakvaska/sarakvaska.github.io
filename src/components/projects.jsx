@@ -99,7 +99,7 @@ export default class Projects extends Component {
                     </div>
                 <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-15px', marginLeft: '15px', justifyContent: 'center'}} >
                     <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
-                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-1.png)'}}>
+                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-1.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
                                     <h3><a onClick={() => this.setState({ isOpen1: true })}>sUAS IMS</a></h3>
@@ -125,7 +125,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
-                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-2.png)'}}>
+                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-2.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
                                     <h3><a onClick={() => this.setState({ isOpen2: true })}>Public Transportation Coverage</a></h3>
@@ -151,7 +151,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
-                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-3.png)'}}>
+                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-3.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
                                     <h3><a onClick={() => this.setState({ isOpen3: true })}>CapOne</a></h3>
@@ -179,8 +179,8 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-15px', marginLeft: '15px', justifyContent: 'center', paddingBottom:'100px'}} >
-                    <div style={{backgroundPosition: 'center center'}} style={{height:'50%', width:'100%'}} className="col-md-4">
-                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-4.png)', backgroundPosition: 'center center'}}>
+                    <div style={{backgroundPosition: 'center center', height:'50%', width:'100%'}} className="col-md-4">
+                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-4.png') + ')', backgroundPosition: 'center center'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
                                     <h3><a onClick={() => this.setState({ isOpen4: true })}>Epicure Taste</a></h3>
@@ -206,7 +206,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     <div style={{height:'50%', width:'100%'}} className="col-md-4">
-                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-6.png)', backgroundPosition: 'center center'}}>
+                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-6.png'), backgroundPosition: 'center center'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
                                     <h3><a onClick={() => this.setState({ isOpen5: true })}>Obesity Upsurge</a></h3>
@@ -232,7 +232,7 @@ export default class Projects extends Component {
                             </div>
                         </div>
                     <div style={{height:'50%', width:'100%'}} className="col-md-4">
-                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-5.png)', backgroundPosition: 'center right'}}>
+                        <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-5.png'), backgroundPosition: 'center right'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
                                     <h3><a onClick={() => this.setState({ isOpen6: true })}>College Guides</a></h3>

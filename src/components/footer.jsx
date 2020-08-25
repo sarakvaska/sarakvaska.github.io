@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
             <section className="ftco-section ftco-footer">
                 <div className="container">
-                    <div style={{height:'50vh'}} className="row">
+                    <div style={{height:'70vh'}} className="row">
                         <div className="col-md">
                             <div className="ftco-footer-widget mb-4">
                                 <h2 className="ftco-heading-2">Connect</h2>
@@ -53,9 +53,9 @@ export default class Footer extends Component {
                         </div>
                     </div>
                     <div>
-                        <div style={{height:'85vh', paddingTop:'700px'}} className="col-md-12 text-center">
+                        <div style={{height:'25vh', paddingTop:'50px'}} className="col-md-12 text-center">
                             <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                            Copyright © All rights reserved | Thanks to <a href="https://colorlib.com" target="_blank">Colorlib</a> for the template inspiration <i class="icon-heart color-danger" aria-hidden="true"></i>
+                            Copyright © All rights reserved | Thanks to <a href="https://colorlib.com" target="_blank">Colorlib</a> for the template inspiration <i className="icon-heart color-danger" aria-hidden="true"></i>
                             {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
                         </div>
                     </div>
