@@ -9102,10 +9102,11 @@ textarea.form-control {
     .ftco-section {
       padding-bottom: 2800px;
    } }
-   @media (max-width: 770px) {
+   @media (max-width: 600px) {
     .ftco-section {
-      padding-bottom: 3200px;
+      padding-bottom: 3400px;
    } }
+   
 
 .ftco-section-1 {
   padding-top: 0px;
