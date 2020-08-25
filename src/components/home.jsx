@@ -26,23 +26,24 @@ export default class Home extends Component {
         <section className="hero-wrap js-fullheight">
             <div className="overlay"/>
             <div className="container">
-            <div className="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-                <div className="col-lg-8 col-md-6 d-flex align-items-center">
-                <div className="text text-center">
-                    <span className="subheading">Hi there! I am</span>
-                    <h1>Sara Kvaska</h1>
-                    <h2>I'm a&nbsp;
-                      <ReactRotatingText style={{color: '#3e64ff'}} items={[ "developer.", "writer.", "reader.", "student at Harvard." ]}/>
-					          </h2>
-                </div>
-                </div>
+              <div className="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+                  <div className="col-lg-8 col-md-6 d-flex align-items-center">
+                  <div className="text text-center">
+                      <span className="subheading">Hi there! I am</span>
+                      <h1>Sara Kvaska</h1>
+                      <h2>I'm a&nbsp;
+                        <ReactRotatingText style={{color: '#3e64ff'}} items={[ "developer.", "writer.", "reader.", "student at Harvard." ]}/>
+                      </h2>
+                  </div>
+                  </div>
+              </div>
+              <div className="mouse">
+              <a className="mouse-icon">
+                  <div className="mouse-wheel"><span className="ion-ios-arrow-round-down" /></div>
+              </a>
+              </div>
             </div>
-            </div>
-            <div className="mouse">
-            <a className="mouse-icon">
-                <div className="mouse-wheel"><span className="ion-ios-arrow-round-down" /></div>
-            </a>
-            </div>
+              
         </section>
       </div>
     )
