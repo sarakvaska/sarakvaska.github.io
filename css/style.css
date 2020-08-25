@@ -9102,11 +9102,7 @@ textarea.form-control {
     .ftco-section {
       padding-bottom: 2800px;
    } }
-   @media (max-width: 600px) {
-    .ftco-section {
-      padding-bottom: 3400px;
-   } 
-  @media(max-width: 400px) {
+  @media(max-width: 500px) {
     .ftco-section {
       padding-bottom: 4500px;}
     }
@@ -9114,7 +9110,8 @@ textarea.form-control {
 
 
 .ftco-section-1 {
-  padding-top: 0px;}
+  padding-top: 0px;
+  position: relative;}
   /* position: relative;} */
   @media (max-width: 1000px) {
     .ftco-section-1 {
