@@ -18,37 +18,37 @@ export default class Interests extends Component {
     render() {
       const { photoIndex, isOpen1, isOpen2, isOpen3, isOpen4, isOpen5, isOpen6 } = this.state;
       const friends = [
-        'images/friends.jpeg',
+        require('./friends.jpeg')
         ];
       const captionsFriends = [
           'My best friends and I at college. I love them!'
       ]
       const fish = [
-        'images/fish.jpeg',
+        require('./fish.jpeg')
         ];
       const captionsFish = [
           "They're so majestic!"
       ]
       const pins = [
-        'images/pins.jpeg',
+        require('./pins.jpeg')
       ];
       const captionsPins = [
           'I collect a pin from every new place I visit!'
       ]
       const journal = [
-        'images/journal.jpeg',
+        require('./journal.jpeg')
       ];
       const captionsJournal = [
           'I write and draw in a journal almost everyday, and have 7 years worth of memories in them now!'
       ]
       const running = [
-        'images/running.jpeg',
+        require('./running.jpeg')
       ];
       const captionsRunning = [
           'I used to run in high school and recently started again!'
       ]
       const kayaking = [
-        'images/kayaking.jpeg',
+        require('./kayaking.jpeg')
       ];
       const captionsKayaking = [
           'I love going on adventures with my family!'

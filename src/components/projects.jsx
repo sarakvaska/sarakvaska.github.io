@@ -19,39 +19,39 @@ export default class Projects extends Component {
   render() {
     const { photoIndex, isOpen1, isOpen2, isOpen3, isOpen4, isOpen5, isOpen6 } = this.state;
     const imagesSUAS = [
-        'images/work-1.png',
-        'images/suas-2.png',
-        'images/suas-3.png',
-        'images/suas-4.png',
+        require('./work-1.png'),
+        require('./suas-2.png'),
+        require('./suas-3.png'),
+        require('./suas-4.png'),
     ];
     const imagesMiami = [
-        'images/work-2.png',
-        'images/miami-3.png',
-        'images/miami-4.png',
-        'images/miami-5.png',
+        require('./work-2.png'),
+        require('./miami-3.png'),
+        require('./miami-4.png'),
+        require('./miami-5.png'),
     ];
     const imagesCapOne = [
-        'images/work-3.png',
-        'images/capOne-4.png',
+        require('./work-3.png'),
+        require('./capOne-4.png'),
     ];
     
     const imagesTaste = [
-        'images/work-4.png',
-        'images/taste-6.png',
-        'images/taste-7.png'
+        require('./work-4.png'),
+        require('./taste-6.png'),
+        require('./taste-7.png')
     ];
     
     const imagesObesity = [
-        'images/work-6.png',
-        'images/obesity-7.png',
-        'images/obesity-6.png', 
-        'images/obesity-8.png'
+        require('./work-6.png'),
+        require('./obesity-7.png'),
+        require('./obesity-6.png'), 
+        require('./obesity-8.png')
     ];
     
     const imagesTextbooks = [
-        'images/work-5.png',
-        'images/textbooks-6.png',
-        'images/textbooks-7.png'
+        require('./work-5.png'),
+        require('./textbooks-6.png'),
+        require('./textbooks-7.png')
     ];
     
     const captionsSUAS = [
