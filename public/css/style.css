@@ -9088,7 +9088,7 @@ textarea.form-control {
 
 .ftco-section {
   /* padding: 7em 0; */
-  padding-bottom: 2100px;
+  padding-bottom: 2100px;}
   position: relative;}
   @media (max-width: 1200px) {
     .ftco-section {
@@ -9105,18 +9105,20 @@ textarea.form-control {
    @media (max-width: 600px) {
     .ftco-section {
       padding-bottom: 3400px;
-   } }
-   
+   } 
+  @media(max-width: 400px) {
+    .ftco-section {
+      padding-bottom: 4500px;}
+    }
+  }
+
 
 .ftco-section-1 {
-  padding-top: 0px;
-  position: relative;}
+  padding-top: 0px;}
+  /* position: relative;} */
   @media (max-width: 1000px) {
     .ftco-section-1 {
-      padding-top: 0px; } }
-  @media (max-width: 400px) {
-    .ftco-section-1 {
-      padding-top: 1000px; } }
+      padding-top: 0px; } }}
 
 .ftco-no-pt {
   padding-top: 0 !important; }
