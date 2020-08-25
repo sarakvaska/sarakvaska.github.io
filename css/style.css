@@ -9089,7 +9089,6 @@ textarea.form-control {
 .ftco-section {
   /* padding: 7em 0; */
   padding-bottom: 2100px;}
-  position: relative;}
   @media (max-width: 1200px) {
     .ftco-section {
       padding-bottom: 2400px;}
@@ -9106,7 +9105,7 @@ textarea.form-control {
     .ftco-section {
       padding-bottom: 4500px;}
     }
-  }
+  
 
 
 .ftco-section-1 {
@@ -9115,7 +9114,7 @@ textarea.form-control {
   /* position: relative;} */
   @media (max-width: 1000px) {
     .ftco-section-1 {
-      padding-top: 0px; } }}
+      padding-top: 0px; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
