@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f835fece02f401aab27607440f682ec",
+    "revision": "f77a0dcdbd60345ad7bfb20090fc270f",
     "url": "/sarakvaska.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sarakvaska.github.io/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "254141a36c23934ff8e5",
+    "revision": "e765e5d5a22b01f4f0b4",
     "url": "/sarakvaska.github.io/static/css/main.4fdd591a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sarakvaska.github.io/static/js/2.826d7cd6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "254141a36c23934ff8e5",
-    "url": "/sarakvaska.github.io/static/js/main.c031e72a.chunk.js"
+    "revision": "e765e5d5a22b01f4f0b4",
+    "url": "/sarakvaska.github.io/static/js/main.cdd15643.chunk.js"
   },
   {
     "revision": "046246f58042cdcb9d2e",
