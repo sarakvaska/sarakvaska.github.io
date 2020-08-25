@@ -9449,7 +9449,7 @@ textarea.form-control {
 .contact-section .box {
   width: 275px;
   height: 250px;
-  display: block;
+  /* display: block; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
