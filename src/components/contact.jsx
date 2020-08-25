@@ -4,7 +4,7 @@ export default class Contact extends Component {
     render() {
       return (
         <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
-        <div style={{paddingLeft:'30px', paddingRight:'5px', height:'80vh'}} className="container">
+        <div style={{paddingRight:'5px', paddingBottom:'100px'}} className="container">
           <div className="justify-content-center pb-3">
             <div className="col-md-7 heading-section text-center ftco-animate">
               <h1 className="big big-2">Contact</h1>
@@ -13,9 +13,9 @@ export default class Contact extends Component {
               <br></br>
             </div>
           </div>
-          <div style={{marginLeft:'80px', height:'80vh'}}className="row d-flex contact-info">
-            <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div className="align-self-stretch box text-center p-4 shadow">
+          <div id="wrapper" style={{paddingLeft:'15px', marginRight:'15px', overflowX:'scroll'}}>
+            <div id="left" className="ftco-animate">
+                <div className="box text-center p-4 shadow">
                     <div className="icon d-flex align-items-center justify-content-center">
                     <span className="icon-twitter" />
                     </div>
@@ -25,8 +25,8 @@ export default class Contact extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div className="align-self-stretch box text-center p-4 shadow">
+            <div id="right" className="ftco-animate">
+                <div className="box text-center p-4 shadow">
                     <div className="icon d-flex align-items-center justify-content-center">
                     <span className="icon-twitter" />
                     </div>
@@ -36,8 +36,8 @@ export default class Contact extends Component {
                     </div>
                 </div>
             </div>
-            <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-              <div className="align-self-stretch box text-center p-4 shadow">
+            <div id="third" className="ftco-animate">
+              <div className="box text-center p-4 shadow">
                 <div className="icon d-flex align-items-center justify-content-center">
                   <span className="icon-paper-plane" />
                 </div>
@@ -47,8 +47,8 @@ export default class Contact extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-              <div className="align-self-stretch box text-center p-4 shadow">
+            <div id="fourth" className="ftco-animate">
+              <div className="box text-center p-4 shadow">
                 <div className="icon d-flex align-items-center justify-content-center">
                   <span className="icon-paper-plane" />
                 </div>

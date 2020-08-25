@@ -4,7 +4,7 @@ export default class Introduction extends Component {
   render() {
     return (
         <div>
-            <section className="ftco-about img ftco-section ftco-no-pt ftco-no-pb goto-here" id="about-section">
+            <section className="ftco-about img ftco-no-pt goto-here" id="about-section">
                 <div className="container">
     		        <div className="row d-flex no-gutters">
     			        <div className="col-md-6 col-lg-6 d-flex">
@@ -36,8 +36,8 @@ export default class Introduction extends Component {
                         </div>
                     </div>
                 </div>
-                <br></br><br></br><br></br><br></br>
             </section>
+            <br></br><br></br><br></br><br></br>
         </div>
     )
   }

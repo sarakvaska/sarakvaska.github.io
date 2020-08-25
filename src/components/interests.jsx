@@ -55,7 +55,7 @@ export default class Interests extends Component {
       ]
       return (
         <div>
-        <section className="ftco-section-1" id="interests-section">
+        <section className="ftco-section-2" id="interests-section">
             <div className="container-fluid px-md-0">
                 <div className="no-gutters justify-content-center pb-5">
                     <div className="col-md-12 heading-section text-center ftco-animate">

@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
             <section className="ftco-section ftco-footer">
                 <div className="container">
-                    <div style={{height:'70vh'}} className="row">
+                    <div style={{height:'100%'}} className="row">
                         <div className="col-md">
                             <div className="ftco-footer-widget mb-4">
                                 <h2 className="ftco-heading-2">Connect</h2>
