@@ -98,7 +98,7 @@ export default class Projects extends Component {
                         </div>
                     </div>
                 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} >
-                    <div style={{height:'50%', width:'100%', paddingBottom:'20px', marginRight: '-15px', marginLeft: '15px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-1.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -124,7 +124,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%', paddingBottom:'20px', marginRight: '-15px', marginLeft: '15px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-2.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -150,7 +150,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%', paddingBottom:'20px', marginRight:'-15px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-3.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -179,7 +179,7 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} >
-                    <div style={{backgroundPosition: 'center center', height:'50%', width:'100%', paddingBottom:'20px', paddingLeft:'25px', marginLeft:'10px', marginRight:'-10px'}} className="col-md-4">
+                    <div style={{backgroundPosition: 'center center', height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-4.png') + ')', backgroundPosition: 'center center'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -205,7 +205,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%',  paddingBottom:'20px', marginLeft:'10px', marginRight:'-10px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%',  paddingBottom:'20px'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-6.png'), backgroundPosition: 'center center'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -231,7 +231,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%',  paddingBottom:'20px', marginLeft:'10px', marginRight:'-10px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%',  paddingBottom:'20px'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-5.png'), backgroundPosition: 'center right'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
