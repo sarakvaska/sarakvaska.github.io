@@ -9279,6 +9279,11 @@ textarea.form-control {
   background-position: center left;
   }
 
+.img-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+  }
 .image-popup {
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;

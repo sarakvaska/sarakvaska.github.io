@@ -28,7 +28,7 @@ export default class Contact extends Component {
             <div id="right" className="ftco-animate">
                 <div className="box text-center p-4 shadow">
                     <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="icon-twitter" />
+                    <span className="icon-linkedin" />
                     </div>
                     <div>
                     <h3 className="mb-4">LinkedIn</h3>
