@@ -65,7 +65,7 @@ export default class Interests extends Component {
                     </div>
                 </div>
             
-            <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-25px', justifyContent: 'center'}} >
+            <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} >
                 <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./friends.jpeg') + ')'}}>
                         <div className="overlay" />
@@ -110,7 +110,7 @@ export default class Interests extends Component {
                     </div>
                 </div>
             </div>
-            <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-25px', justifyContent: 'center', paddingBottom:'100px'}} >
+            <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', paddingBottom:'100px'}} >
                 <div style={{backgroundPosition: 'center center'}} style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./journal.jpeg') + ')', backgroundPosition: 'center center'}}>
                         <div className="overlay" />

@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div id="colorlib-page">
-        <div id="container-wrap">
+        <div id="container-wrap" style={{overflow: "hidden"}}>
         <div id="colorlib-main">
           <Home></Home>
           <Introduction></Introduction>
