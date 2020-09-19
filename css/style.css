@@ -9098,6 +9098,14 @@ textarea.form-control {
     .ftco-section {
       padding-bottom: 3000px;
    } }
+   @media (max-width: 765px) {
+    .ftco-section {
+      padding-bottom: 3275px;
+   } }
+   @media (max-width: 700px) {
+    .ftco-section {
+      padding-bottom: 3275px;
+   } }
    @media (max-width: 580px) {
     .ftco-section {
       padding-bottom: 3275px;
