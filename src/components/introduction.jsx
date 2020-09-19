@@ -19,8 +19,9 @@ export default class Introduction extends Component {
                         <div className="col-md-12 heading-section">
                                 <h2 className="mb-4">About Me</h2>
                                 <p>I'm a senior at Harvard studying Computer Science with a Secondary in Astrophysics. I'm originally from Miami, FL!</p>
-                                <p>After college, I want to be a PM at a tech company because I love learning, building things, and I'm really passionate about creating products that deliver an amazing user experience. </p>
-                                <p>Apart from work and class, I love spending time with my friends and family, running, and anything that has to do with Gordon Ramsay, Taylor Swift or Seinfeld! </p>
+                                <p>After college, I would love to gain experience as a product/project manager because I love learning and building new, innovative products! I'm also passionate
+                                    about how to better craft the user experience and how techology can be used to solve problems. </p>
+                                <p>Apart from work and class, I love journal writing, training for half marathons, and anything that has to do with Gordon Ramsay, Taylor Swift or Seinfeld! </p>
                                 <ul className="about-info mt-4 px-md-0 px-2">
                                     <li className="d-flex"><span>Name:</span> <span>Sara Kvaska</span></li>
                                     <li className="d-flex"><span>College Email:</span> <span>kvaskas@college.harvard.edu</span></li>

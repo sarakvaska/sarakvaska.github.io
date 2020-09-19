@@ -53,11 +53,12 @@ Science, Theoretical Computer Science, Data Structures and Algorithms, Data</p>
                             </div>
                             <div className="text pl-3">
                                 <span className="date">2019 - 2020</span>
-                                <h2>Festa Co-Chair</h2>
+                                <h2>Festa, Design Co-Chair</h2>
                                 <span className="position">Quincy Housing Committee</span>
                                 <ul>
-                                    <li>Responsible for planning and organizing a bi-weekly housing "festa" (party), meant to be a place where all members of the dorm can come and enjoy music, drinks, and food.</li>
-                                    <li>Since we've gone virtual, I'm now working on implementing new ways we can adapt our get togethers over to a virtual setting.</li>
+                                    <li>As Festa co-chair in the Spring, planned and organized a bi-weekly housing Festa for around 100-150 people, meant to be a place where all members of the dorm could come and enjoy music, drinks, and food.</li>
+                                    <li>As Design co-chair for the fall, responsible for planning house activities as well as working with the design board to create posters
+promoting our events including game nights, watch parties, open mic nights, and alumni panels.</li>
                                 </ul>
                             </div>
                         </div>
