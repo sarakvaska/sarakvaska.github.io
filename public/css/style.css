@@ -9098,9 +9098,9 @@ textarea.form-control {
     .ftco-section {
       padding-bottom: 3000px;
    } }
-   @media (max-width: 770px) {
+   @media (max-width: 550px) {
     .ftco-section {
-      padding-bottom: 3175px;
+      padding-bottom: 3275px;
    } }
   @media(max-width: 500px) {
     .ftco-section {
