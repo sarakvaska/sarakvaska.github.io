@@ -8727,6 +8727,7 @@ h1, .h1, h2, .h2 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 30px;
+    padding-top: 20px;
     color: #3e64ff; }
 
 .resume-wrap {
@@ -9251,7 +9252,8 @@ textarea.form-control {
       right: 0; }
   .heading-section h2 {
     font-size: 50px;
-    font-weight: 700; }
+    font-weight: 700;
+    padding-top:20px; }
     .heading-section h2 span {
       font-weight: 400; }
     @media (max-width: 767.98px) {
