@@ -9106,6 +9106,10 @@ textarea.form-control {
     .ftco-section {
       padding-bottom: 4500px;}
     }
+  @media (max-width: 400px) {
+    .ftco-section {
+      padding-bottom: 4600px;
+  } }
   
 
 
