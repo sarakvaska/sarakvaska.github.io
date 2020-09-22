@@ -91,8 +91,8 @@ promoting our events including game nights, watch parties, open mic nights, and 
                                 <h2>Senior Digital Communications Intern</h2>
                                 <span className="position">Harvard Admissions and Financial Aid</span>
                                 <ul>
+                                    <li>Overseeing the publishing of Student Blogs on the Harvard College website; once students write their blogs, I check to ensure they’re written using language for the web and have all the proper formatting guidelines, then I approve it to go live on the website.</li>
                                     <li>Spearheaded the Shoestring Guide Project; consolidated all information from an outdated app over to the College website in the form of 6 written guides.</li>   
-                                    <li>Supporting the communications team in managing digital platforms, analyzing and reporting on digital engagement to inform strategy, coordinating with current students on social media and blog content, strategizing ways to engage current and prospective students.</li>
                                 </ul>
                             </div>
                         </div>
