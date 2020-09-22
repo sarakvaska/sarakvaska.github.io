@@ -40,10 +40,11 @@ Science, Theoretical Computer Science, Data Structures and Algorithms, Data</p>
                                 <h2>Girls Who Code Co-Director</h2>
                                 <span className="position">Women in Computer Science</span>
                                 <ul>
-                                    <li>Responsible for creating a curriculum and teaching a group of 15-20 girls the foundations of computer science.</li>
+                                    <li>Created a curriculum for each fall and spring, teaching a group of around 25 girls the foundations of computer science.</li>
                                     <li>The curriculums taught have included Python, Robotics, HTML/CSS, and animation.</li>
-                                    <li>Instituted a financial assistance program so that more girls within the broader Boston community had better access to our classes and resources.</li>
-                                    <li>Facilitating the recent switch to online learning due to COVID.</li>
+                                    <li>Implemented mentorship and pen-pal programs to connect women studying computer science with
+young girls interested in coding.</li>
+                                    <li>Increased the breadth of the program from the Boston area, to nationwide, and then internationally.</li>
                                 </ul>
                             </div>
                         </div>
@@ -90,7 +91,7 @@ promoting our events including game nights, watch parties, open mic nights, and 
                                 <h2>Senior Digital Communications Intern</h2>
                                 <span className="position">Harvard Admissions and Financial Aid</span>
                                 <ul>
-                                    <li>Spearheading the Shoestring Guide Project, consolidating information from an outdated app over to the College website in the form of written guides.</li>   
+                                    <li>Spearheaded the Shoestring Guide Project; consolidated all information from an outdated app over to the College website in the form of 6 written guides.</li>   
                                     <li>Supporting the communications team in managing digital platforms, analyzing and reporting on digital engagement to inform strategy, coordinating with current students on social media and blog content, strategizing ways to engage current and prospective students.</li>
                                 </ul>
                             </div>
