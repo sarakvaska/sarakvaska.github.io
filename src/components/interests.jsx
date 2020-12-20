@@ -66,7 +66,7 @@ export default class Interests extends Component {
                 </div>
             
             <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} >
-                <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./friends.jpeg') + ')'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
@@ -80,7 +80,7 @@ export default class Interests extends Component {
                             </div>
                         </div>
                     </div>
-                <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./fish.jpeg') + ')'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
@@ -94,7 +94,7 @@ export default class Interests extends Component {
                             </div>
                         </div>
                     </div>
-                <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./pins.jpeg') + ')'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
@@ -110,8 +110,8 @@ export default class Interests extends Component {
                     </div>
                 </div>
             </div>
-            <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', paddingBottom:'100px'}} >
-                <div style={{backgroundPosition: 'center center'}} style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+            <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', paddingBottom:'0px'}} >
+                <div style={{backgroundPosition: 'center center'}} style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./journal.jpeg') + ')', backgroundPosition: 'center center'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
@@ -125,7 +125,7 @@ export default class Interests extends Component {
                             </div>
                         </div>
                     </div>
-                <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                     <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./running.jpeg') + ')', backgroundPosition: 'center center'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">
@@ -139,7 +139,7 @@ export default class Interests extends Component {
                             </div>
                         </div>
                     </div>
-                <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                     <div className="project ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./kayaking.jpeg') + ')', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center left'}}>
                         <div className="overlay" />
                             <div className="text text-center p-4">

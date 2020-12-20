@@ -41,17 +41,22 @@ export default class Projects extends Component {
         require('./taste-7.png')
     ];
     
-    const imagesObesity = [
+    const imagesMC = [
         require('./work-6.png'),
-        require('./obesity-7.png'),
-        require('./obesity-6.png'), 
-        require('./obesity-8.png')
+        require('./MC2.png'),
+        require('./MC3.png'),
+        require('./MC4.png'),
+        require('./MC5.png'),
+        require('./MC6.png'),
+        require('./MC7.png'),
     ];
     
-    const imagesTextbooks = [
+    const imagesZoom = [
         require('./work-5.png'),
-        require('./textbooks-6.png'),
-        require('./textbooks-7.png')
+        require('./Z2.png'),
+        require('./Z3.png'),
+        require('./Z4.png'),
+        require('./Z5.png'),
     ];
     
     const captionsSUAS = [
@@ -78,12 +83,16 @@ export default class Projects extends Component {
         'The page where users can add their own recipes to the database'
     ];
 
-    const captionsObesity = [
-        'This website was built using Wix as a way to analyze the problem of obesity in the Pacific',
+    const captionsMC = [
+        'This website was built as a way to visualize the Top Christmas songs on the Billboard Hot 100 Chart through 1958 - 2017',
     ];
 
-    const captionsTextbooks = [
-        'I wrote this guide for the Harvard College website so that students know where to find textbooks for their classes'
+    const captionsZoom = [
+        'This project was created to investigate, and solve, the problem of fair bandwidth allocation in the home. To read our final report, visit: https://github.com/sarakvaska/CS143-Final-Project', 
+        'This table represents the bandwidth taken on Zoom depending on activity', 
+        'Our prioritization pyramid. We prioritized Zoom and Skype over Email and streaming apps', 
+        'Our network topology for testing bandwidth allocation', 
+        'The delay times we calculated based on our formula; read more about our calculations on my Github'
     ]
 
     return (
@@ -98,7 +107,7 @@ export default class Projects extends Component {
                         </div>
                     </div>
                 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} >
-                    <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-1.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -124,7 +133,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-2.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -150,7 +159,7 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-3.png') + ')'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -179,7 +188,7 @@ export default class Projects extends Component {
                     </div>
                 </div>
                 <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}} >
-                    <div style={{backgroundPosition: 'center center', height:'50%', width:'100%', paddingBottom:'20px'}} className="col-md-4">
+                    <div style={{backgroundPosition: 'center center', height:'50%', width:'100%', paddingBottom:'1.25em'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-4.png') + ')', backgroundPosition: 'center center'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
@@ -205,55 +214,55 @@ export default class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%',  paddingBottom:'20px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%',  paddingBottom:'1.25em'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-6.png'), backgroundPosition: 'center center'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
-                                    <h3><a onClick={() => this.setState({ isOpen5: true })}>Obesity Upsurge</a></h3>
+                                    <h3><a onClick={() => this.setState({ isOpen5: true })}>Mariah Carey Season</a></h3>
                                     {isOpen5 && (
                                         <Lightbox
-                                            imageCaption={captionsObesity[photoIndex]}
-                                            mainSrc={imagesObesity[photoIndex]}
-                                            nextSrc={imagesObesity[(photoIndex + 1) % imagesObesity.length]}
-                                            prevSrc={imagesObesity[(photoIndex + imagesObesity.length - 1) % imagesObesity.length]}
+                                            imageCaption={captionsMC[photoIndex]}
+                                            mainSrc={imagesMC[photoIndex]}
+                                            nextSrc={imagesMC[(photoIndex + 1) % imagesMC.length]}
+                                            prevSrc={imagesMC[(photoIndex + imagesMC.length - 1) % imagesMC.length]}
                                             onCloseRequest={() => this.setState({ isOpen5: false })}
                                             onMovePrevRequest={() =>
                                                 this.setState({
-                                                    photoIndex: (photoIndex + imagesObesity.length - 1) % imagesObesity.length,
+                                                    photoIndex: (photoIndex + imagesMC.length - 1) % imagesMC.length,
                                                 })
                                             }
                                             onMoveNextRequest={() =>
                                                 this.setState({
-                                                    photoIndex: (photoIndex + 1) % imagesObesity.length,
+                                                    photoIndex: (photoIndex + 1) % imagesMC.length,
                                                 })
                                     }/>)}
-                                    <span>In the Pacific</span>
+                                    <span>Visualizing the Top Christmas Songs</span>
                                 </div>
                             </div>
                         </div>
-                    <div style={{height:'50%', width:'100%',  paddingBottom:'20px'}} className="col-md-4">
+                    <div style={{height:'50%', width:'100%',  paddingBottom:'1.25em'}} className="col-md-4">
                         <div className="project img-1 ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(' + require('./work-5.png'), backgroundPosition: 'center right'}}>
                             <div className="overlay" />
                                 <div className="text text-center p-4">
-                                    <h3><a onClick={() => this.setState({ isOpen6: true })}>College Guides</a></h3>
+                                    <h3><a onClick={() => this.setState({ isOpen6: true })}>An Algorithm in Pursuit of Network Fairness</a></h3>
                                     {isOpen6 && (
                                         <Lightbox
-                                            imageCaption={captionsTextbooks[photoIndex]}
-                                            mainSrc={imagesTextbooks[photoIndex]}
-                                            nextSrc={imagesTextbooks[(photoIndex + 1) % imagesTextbooks.length]}
-                                            prevSrc={imagesTextbooks[(photoIndex + imagesTextbooks.length - 1) % imagesTextbooks.length]}
+                                            imageCaption={captionsZoom[photoIndex]}
+                                            mainSrc={imagesZoom[photoIndex]}
+                                            nextSrc={imagesZoom[(photoIndex + 1) % imagesZoom.length]}
+                                            prevSrc={imagesZoom[(photoIndex + imagesZoom.length - 1) % imagesZoom.length]}
                                             onCloseRequest={() => this.setState({ isOpen6: false })}
                                             onMovePrevRequest={() =>
                                                 this.setState({
-                                                    photoIndex: (photoIndex + imagesTextbooks.length - 1) % imagesTextbooks.length,
+                                                    photoIndex: (photoIndex + imagesZoom.length - 1) % imagesZoom.length,
                                                 })
                                             }
                                             onMoveNextRequest={() =>
                                                 this.setState({
-                                                    photoIndex: (photoIndex + 1) % imagesTextbooks.length,
+                                                    photoIndex: (photoIndex + 1) % imagesZoom.length,
                                                 })
                                     }/>)}
-                                    <span>Finding Textbooks</span>
+                                    <span>Bandwidth Allocation at Home in a Zoom World</span>
                                 </div>
                             </div>
                         </div>

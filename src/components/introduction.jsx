@@ -18,9 +18,9 @@ export default class Introduction extends Component {
                         <div className="row justify-content-start pb-3"> 
                         <div className="col-md-12 heading-section">
                                 <h2 className="mb-4">About Me</h2>
-                                <p>I'm a senior at Harvard studying Computer Science with a Secondary in Astrophysics. I'm originally from Miami, FL!</p>
-                                <p>After college, I would love to gain experience as a product/project manager because I love learning and building new, innovative products! I'm also passionate
-                                    about how to better craft the user experience and how techology can be used to solve problems. </p>
+                                <p>I'm a senior at Harvard studying Computer Science with a Secondary in Astrophysics, originally from Miami, Florida. (In the photo, I'm in the middle!) </p>
+                                <p>After college, I'm looking to gain experience as Software Engineer. I love working on innovative projects through code as well as learning 
+                                    how to solve everyday problems through new techology. I am also passionate about Girls Who Code and its mission to inspire young women to pursue Computer Science.</p>
                                 <p>Apart from work and class, I love journal writing, training for half marathons, and anything that has to do with Gordon Ramsay, Taylor Swift or Seinfeld! </p>
                                 <ul className="about-info mt-4 px-md-0 px-2">
                                     <li className="d-flex"><span>Name:</span> <span>Sara Kvaska</span></li>
