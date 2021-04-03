@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16cb9e4e048c1154938be9079e9972e8",
+    "revision": "a19dbf89a5dc32d2be2c3e7192cda6e9",
     "url": "/sarakvaska.github.io/index.html"
   },
   {
-    "revision": "af84a67dda02d7cc5e2b",
+    "revision": "5a24a5edd2e95a21ba83",
     "url": "/sarakvaska.github.io/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "bb7cd5415caf8686efda",
+    "revision": "f40c7477e001ba948338",
     "url": "/sarakvaska.github.io/static/css/main.56044a7f.chunk.css"
   },
   {
-    "revision": "af84a67dda02d7cc5e2b",
-    "url": "/sarakvaska.github.io/static/js/2.2b88a5cb.chunk.js"
+    "revision": "5a24a5edd2e95a21ba83",
+    "url": "/sarakvaska.github.io/static/js/2.856e777a.chunk.js"
   },
   {
     "revision": "13e061b2fd50c1d7f7b7e0bb533040d6",
-    "url": "/sarakvaska.github.io/static/js/2.2b88a5cb.chunk.js.LICENSE.txt"
+    "url": "/sarakvaska.github.io/static/js/2.856e777a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb7cd5415caf8686efda",
-    "url": "/sarakvaska.github.io/static/js/main.2a901f24.chunk.js"
+    "revision": "f40c7477e001ba948338",
+    "url": "/sarakvaska.github.io/static/js/main.73684f3d.chunk.js"
   },
   {
     "revision": "046246f58042cdcb9d2e",
