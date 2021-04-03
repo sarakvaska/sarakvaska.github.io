@@ -143,7 +143,7 @@ promoting our events including game nights, watch parties, open mic nights, and 
                     
                     <div id="page-3" className="page three">
                         <h2 className="heading">Technical Skills</h2>
-          <div style={{display: '-webkit-box', display: '-ms-flexbox', display: 'flex', flexWrap: 'wrap', marginRight: '-0.9375em', marginLeft: '-0.9375em' }}>
+          <div style={{display: 'flex', flexWrap: 'wrap', marginRight: '-0.9375em', marginLeft: '-0.9375em' }}>
             <div className="col-md-6 animate-box" style={{paddingTop: 0, paddingBottom: 0, height: '3.125em'}}>
               <div className="progress-wrap ftco-animate">
                 <h3>HTML</h3>
