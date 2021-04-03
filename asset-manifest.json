@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sarakvaska.github.io/static/css/main.56044a7f.chunk.css",
-    "main.js": "/sarakvaska.github.io/static/js/main.73684f3d.chunk.js",
-    "main.js.map": "/sarakvaska.github.io/static/js/main.73684f3d.chunk.js.map",
+    "main.js": "/sarakvaska.github.io/static/js/main.4967df6f.chunk.js",
+    "main.js.map": "/sarakvaska.github.io/static/js/main.4967df6f.chunk.js.map",
     "runtime-main.js": "/sarakvaska.github.io/static/js/runtime-main.161bccda.js",
     "runtime-main.js.map": "/sarakvaska.github.io/static/js/runtime-main.161bccda.js.map",
     "static/css/2.9522b9fe.chunk.css": "/sarakvaska.github.io/static/css/2.9522b9fe.chunk.css",
     "static/js/2.856e777a.chunk.js": "/sarakvaska.github.io/static/js/2.856e777a.chunk.js",
     "static/js/2.856e777a.chunk.js.map": "/sarakvaska.github.io/static/js/2.856e777a.chunk.js.map",
     "index.html": "/sarakvaska.github.io/index.html",
-    "precache-manifest.7c59840a57a7f38d202fc5659eaf68aa.js": "/sarakvaska.github.io/precache-manifest.7c59840a57a7f38d202fc5659eaf68aa.js",
+    "precache-manifest.28cc9d7eb2e700ae6b8cf7736d1ae3b7.js": "/sarakvaska.github.io/precache-manifest.28cc9d7eb2e700ae6b8cf7736d1ae3b7.js",
     "service-worker.js": "/sarakvaska.github.io/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/sarakvaska.github.io/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.56044a7f.chunk.css.map": "/sarakvaska.github.io/static/css/main.56044a7f.chunk.css.map",
@@ -52,6 +52,6 @@
     "static/css/2.9522b9fe.chunk.css",
     "static/js/2.856e777a.chunk.js",
     "static/css/main.56044a7f.chunk.css",
-    "static/js/main.73684f3d.chunk.js"
+    "static/js/main.4967df6f.chunk.js"
   ]
 }
